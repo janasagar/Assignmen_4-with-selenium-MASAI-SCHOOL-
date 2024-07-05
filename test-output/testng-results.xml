@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-05T22:01:37 IST" name="Default suite" finished-at="2024-07-05T22:02:12 IST" duration-ms="35181">
+    <groups>
+    </groups>
+    <test started-at="2024-07-05T22:01:37 IST" name="Default test" finished-at="2024-07-05T22:02:12 IST" duration-ms="35181">
+      <class name="test_suite.switch_tab">
+        <test-method is-config="true" signature="visit()[pri:0, instance:test_suite.switch_tab@18271936]" started-at="2024-07-05T22:01:37 IST" name="visit" finished-at="2024-07-05T22:01:56 IST" duration-ms="19188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visit -->
+        <test-method signature="new_tab()[pri:0, instance:test_suite.switch_tab@18271936]" started-at="2024-07-05T22:01:57 IST" name="new_tab" finished-at="2024-07-05T22:02:10 IST" duration-ms="13194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new_tab -->
+        <test-method signature="login()[pri:0, instance:test_suite.switch_tab@18271936]" started-at="2024-07-05T22:02:10 IST" name="login" finished-at="2024-07-05T22:02:11 IST" depends-on-methods="test_suite.switch_tab.new_tab" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test_suite.switch_tab@18271936]" started-at="2024-07-05T22:02:11 IST" name="close" finished-at="2024-07-05T22:02:12 IST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test_suite.switch_tab -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
